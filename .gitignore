@@ -1,0 +1,18 @@
+# build output is committed ON PURPOSE: dist/ is the prebuilt app so Termux can run
+# everything with zero npm install. If you'd rather not ship it, re-add "dist/" here.
+node_modules/
+build/
+coverage/
+.DS_Store
+*.log
+.env
+.env.local
+!.env.example
+# editor / OS noise
+.idea/
+.vscode/
+Thumbs.db
+*.swp
+# AI Studio scratch folder: keep the folder, ignore whatever you drop in it
+public/assets/aistudio/*
+!public/assets/aistudio/.gitkeep
