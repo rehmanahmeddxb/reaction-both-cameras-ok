@@ -1,0 +1,2 @@
+# AI Studio asset drop folder (kept in git so the path always exists after clone/extract).
+# The app never writes here at runtime; anything you put here is copied to dist/ by Vite.
